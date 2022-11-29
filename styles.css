@@ -1,0 +1,10 @@
+#main {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    background-color: lightpink;
+    width: 50%;
+    margin: auto;
+    padding: 10%;
+
+}
