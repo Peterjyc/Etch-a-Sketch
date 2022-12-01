@@ -3,7 +3,7 @@ for (let i = 1; i <= 16; i++){
         var div = document.createElement("div");
         div.style.background = "lightblue";
         div.style.height = "8px";
-        div.style.width = "4px";
+        div.style.width = "3px";
         div.classList.add(i);
         document.getElementById("main").appendChild(div);
     }
