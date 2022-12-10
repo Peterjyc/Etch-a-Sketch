@@ -1,13 +1,13 @@
 #main {
-    display: grid;
-    grid-template-columns: 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
-    grid-template-rows: 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20%;
-    grid-column-start: 1;
-    grid-column-end: 16;
-
     background-color: lightpink;
     margin: auto;
-    padding: 50px;
-    width: 15%;
-
+    padding: 10px;
+    width: 50vw;
 }
+
+.cell {
+    border: 1px solid gray;
+    min-width: 1px;
+    min-height: 2px;
+    display: inline-block;
+  }
